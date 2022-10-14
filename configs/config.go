@@ -16,8 +16,8 @@ type Config struct {
 
 type Postgres struct {
 	Host     string `default:"localhost" envconfig:"DB_HOST"`
-	User     string `default:"root" envconfig:"DB_USER"`
-	Password string `default:"" envconfig:"DB_PASS"`
+	User     string `default:"root" envconfig:"DB_USERNAME"`
+	Password string `default:"" envconfig:"DB_PASSWORD"`
 	DBName   string `default:"" envconfig:"DB_NAME"`
 	Port     int    `default:"5432" envconfig:"DB_PORT"`
 }
