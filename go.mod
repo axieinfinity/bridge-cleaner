@@ -9,7 +9,7 @@ require gorm.io/gorm v1.24.0
 require (
 	github.com/VictoriaMetrics/fastcache v1.10.0 // indirect
 	github.com/axieinfinity/bridge-contracts v0.0.0-20220731110242-d273b578b657 // indirect
-	github.com/axieinfinity/bridge-core v0.0.2-0.20220928110340-8c7e07851f92 // indirect
+	github.com/axieinfinity/bridge-core v0.0.2-0.20221017061921-2d9310ccbd0d // indirect
 	github.com/axieinfinity/bridge-v2 v0.0.0-20220929072030-a565329577e1 // indirect
 	github.com/axieinfinity/ronin-kms-client v0.0.0-20220805072849-960e04981b70 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
