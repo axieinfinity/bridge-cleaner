@@ -1,0 +1,27 @@
+{
+    "ClearSuccessTasks": {
+        "cron": "0 0 1 * *",
+        "threshold": 1000,
+        "expiration": 7776000
+    },
+    "ClearFailedTasks": {
+        "cron": "0 1 1 * *",
+        "threshold": 1000,
+        "expiration": 31104000
+    },
+    "ClearEvents": {
+        "cron": "0 0 * * 0",
+        "threshold": 1000,
+        "expiration": 604800
+    },
+    "ClearSuccessJobs": {
+        "cron": "0 0 * * 0",
+        "threshold": 1000,
+        "expiration": 604800
+    }, 
+    "ClearFailedJobs": {
+        "cron": "0 0 * * 0",
+        "threshold": 1000,
+        "expiration": 604800
+    }
+}
